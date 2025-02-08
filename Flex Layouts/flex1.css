@@ -1,0 +1,59 @@
+/* Universal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* list-style-type: none; */
+}
+div.wrapper{
+    background-color: #1F2122;
+    /* temp */
+    /* viewheight */
+    /* height: 100vh; */
+    padding-top: 100px;
+}
+main{
+    width: 80%; 
+    margin: auto;
+    background-color: #26292B;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+main section{
+    background-color: #1F2122;
+    border-radius: 20px;
+    padding: 20px;
+}
+main section.section-1{
+    padding: 100px 60px;
+    color: white;
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+    background-image: url('layout1/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section-1 p{
+    font-size: 18px;
+}
+span{
+    color: #E75F8C;
+}
+.section-1 h1{
+    font-size: 56px;
+    line-height: 50px;
+}
+.section-1 a{
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #E75F8C;
+    border-radius: 25px;
+    text-decoration: none;
+}
